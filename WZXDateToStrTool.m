@@ -71,7 +71,6 @@
     
     //获取本地时间
     NSDate * nowDate = [NSDate date];
-    
     NSTimeInterval nowtime = [nowDate timeIntervalSince1970];
     
     //时间差
@@ -128,7 +127,7 @@
     return nil;
 }
 
-//获取系统语言
+//  获取系统的语言
 - (NSString *)getCurrentLanguage
 {
     NSArray *languages = [NSLocale preferredLanguages];
