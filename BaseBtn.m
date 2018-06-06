@@ -16,6 +16,11 @@
     [self setImage:image forState:stateType];
     [self setTitle:title forState:stateType];
     
+    
+    ////
+    
+    
+    
     switch (type) {
         case WBtnType_LeftTitleRightImg: {
             self.titleEdgeInsets = UIEdgeInsetsMake(0,-self.imageView.intrinsicContentSize.width, 0,self.imageView.intrinsicContentSize.width);
